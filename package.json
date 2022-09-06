@@ -1,0 +1,16 @@
+{
+  "name": "template-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "register": "node scripts/register-commands.js",
+    "register-globally": "node scripts/register-commands.js -g"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "latest"
+  }
+}
